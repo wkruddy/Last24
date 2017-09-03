@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Jestz",
+      "type": "node",
+      "request": "launch",
+      "runtimeVersion": "8.11.3", // Or whatever NVM version youre using
+      "args": [
+        "scripts/jest-tests.js",
+        "--runInBand",
+        "--no-cache",
+        "--env=jsdom"
+      ],
+      "cwd": "${workspaceRoot}/www/",
+      "protocol": "inspector", // Pick this to debug > Node 6.5
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

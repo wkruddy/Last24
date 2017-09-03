@@ -1,0 +1,12 @@
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "prettier.tslintIntegration": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "jest.debugMode": true
+}
