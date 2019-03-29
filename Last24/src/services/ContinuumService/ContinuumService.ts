@@ -1,4 +1,3 @@
-import { parameterizeEndpoint } from '../../common/methods';
 import { IContinuumItem } from '../../routeComponents/Continuum/Continuum.interfaces';
 import BaseService, { IServiceConfig } from '../BaseService/BaseService';
 
@@ -56,7 +55,7 @@ class ContinuumService extends BaseService {
         return rawContinuum;
     }
     public async fetchContinuumData({ userId }): Promise<IContinuumItem[]> {
-        const endpoint = parameterizeEndpoint('/all', { userId });
+        // const endpoint = parameterizeEndpoint('/all', { userId });
         // const continuumData = await this.get(endpoint);
         const continuumData = await this.tempRetrievalFromLocalStorage();
         return continuumData;
