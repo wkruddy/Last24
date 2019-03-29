@@ -1,0 +1,43 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-config-prettier",
+        "tslint-config-airbnb",
+        "tslint-plugin-prettier"
+    ],
+    "linterOptions": {
+        "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+    },
+    "rules": {
+        "align": [true, "statements", "members"],
+        "curly": [true, "ignore-same-line"],
+        "eofline": true,
+        "function-name": [
+            true,
+            {
+                "method-regex": "^[a-z,_,$][\\w\\d]+$"
+            }
+        ],
+        "import-name": false,
+        "jsx-boolean-value": ["never"],
+        "member-ordering": [true, "static-before-instance", "variables-before-functions"],
+        "max-line-length": false,
+        "no-angle-bracket-type-assertion": false,
+        "no-console": false,
+        "no-empty": [true, "allow-empty-functions"],
+        "no-string-literal": false,
+        "no-trailing-whitespace": true,
+        "no-unused-expressions": false,
+        "no-unused-locals": false,
+        "object-literal-sort-keys": false,
+        "prettier": true,
+        "radix": false,
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "switch-default": true,
+        "ter-arrow-parens": [true, "as-needed"],
+        "ter-indent": false,
+        "trailing-comma": true,
+        "variable-name": false
+    }
+}
