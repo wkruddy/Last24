@@ -28,7 +28,7 @@
         "@material-ui/icons": "3.0.1",
         "ag-grid-community": "19.1.4",
         "ag-grid-react": "19.1.2",
-        "axios": "0.18.0",
+        "axios": "0.18.1",
         "date-fns": "2.0.0-alpha.27",
         "lodash": "4.17.11",
         "material-ui-pickers": "2.2.4",
