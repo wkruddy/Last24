@@ -30,7 +30,7 @@
         "ag-grid-react": "19.1.2",
         "axios": "0.18.0",
         "date-fns": "2.0.0-alpha.27",
-        "lodash": "4.17.11",
+        "lodash": "4.17.15",
         "material-ui-pickers": "2.2.4",
         "react": "16.8.4",
         "react-dom": "16.8.4",
