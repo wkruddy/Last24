@@ -100,7 +100,7 @@
         "mkdirpsync": "0.1.0",
         "prettier": "1.16.4",
         "progress-bar-webpack-plugin": "1.12.1",
-        "react-dev-utils": "7.0.5",
+        "react-dev-utils": "11.0.4",
         "react-docgen-typescript-webpack-plugin": "1.1.0",
         "react-hot-loader": "4.8.0",
         "react-test-renderer": "16.8.4",
